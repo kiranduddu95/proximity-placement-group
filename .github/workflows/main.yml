@@ -41,13 +41,8 @@ jobs:
         with:
 
           inlineScript: |
-
            az deployment group create \
-
            --name StorageAccountDeployment \
-
-           --resource-group githubtestdemo \
-
-           --template-file ppg\template.json \
-
+           --resource-group test-resources \
+           --template-file ppg/template.json/parameters.json \
            --parameters proximityplacementgroupname=kiranppg
