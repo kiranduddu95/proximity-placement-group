@@ -44,5 +44,5 @@ jobs:
            az deployment group create \
            --name StorageAccountDeployment \
            --resource-group test-resources \
-           --template-file ppg/template.json/parameters.json \
+           --template-file ppg/template.json \
            --parameters proximityplacementgroupname=kiranppg
