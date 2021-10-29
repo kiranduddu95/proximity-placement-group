@@ -45,4 +45,5 @@ jobs:
            --name StorageAccountDeployment \
            --resource-group test-resources \
            --template-file ppg/template.json \
-           --parameters ppgName=kiranppg
+           --parameters ppgName=kiranppg \
+           --parameters location=eastus
