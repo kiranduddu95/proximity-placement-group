@@ -45,4 +45,4 @@ jobs:
            --name StorageAccountDeployment \
            --resource-group test-resources \
            --template-file ppg/template.json \
-           --parameters proximityplacementgroupname=kiranppg
+           --parameters ppgName=kiranppg
